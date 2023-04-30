@@ -12,4 +12,9 @@ public class HealthController {
     public String health() {
         return "Prepare google cloud api.";
     }
+
+    @GetMapping("/new/users")
+    public String users() {
+        return "Prepare google users.";
+    }
 }
